@@ -8,9 +8,11 @@ export type MainProps = {
   description: string
   info: string
   url: string
+  altText: string
+  hero: string
 }
 
-const Main = ({ title, description, info, url }: MainProps) => {
+const Main = ({ title, description, info, url, altText, hero }: MainProps) => {
   const router = useRouter()
 
   const handleChangeLang = useCallback(
@@ -23,16 +25,9 @@ const Main = ({ title, description, info, url }: MainProps) => {
 
   return (
     <S.Wrapper>
-      <S.Logo
-        src="/img/logo.svg"
-        alt="Imagem de um átomo e React Avançado escrito ao lado."
-      />
       <S.Title>{title}</S.Title>
       <S.Description>{description}</S.Description>
-      <S.Illustration
-        src="/img/hero-illustration.svg"
-        alt="Um desenvolvedor de frente para uma tela com código."
-      />
+      <S.Illustration src={hero} alt={altText} />
 
       <S.FlagsWrapper>
         <S.Flag onClick={() => handleChangeLang('pt')}>🇧🇷</S.Flag>

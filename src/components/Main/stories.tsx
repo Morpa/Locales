@@ -5,15 +5,13 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'title default',
-    description: 'description default'
+    title: 'Página en español',
+    descripiont: 'Estas leyendo en español',
+    info: 'Puede acceder a la página directamente desde la dirección:',
+    url: 'https://locales.vercel.app/es',
+    altText: 'Un desarrollador frente a una pantalla con código.',
+    hero: '/img/spn.svg'
   }
 } as Meta
-
-export const Basic: Story<MainProps> = (args) => <Main {...args} />
-Basic.args = {
-  title: 'title basic',
-  description: 'description basic'
-}
 
 export const Default: Story<MainProps> = (args) => <Main {...args} />

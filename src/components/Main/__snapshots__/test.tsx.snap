@@ -26,26 +26,21 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c1 {
-  width: 25rem;
-  margin-bottom: 2rem;
-}
-
-.c2 {
   font-size: 2.5rem;
 }
 
-.c3 {
+.c2 {
   margin-top: 2rem;
   font-size: 2rem;
   font-weight: 400;
 }
 
-.c4 {
+.c3 {
   margin-top: 3rem;
   width: min(30rem,100%);
 }
 
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -57,7 +52,7 @@ exports[`<Main /> should render the heading 1`] = `
   padding: 1rem;
 }
 
-.c6 {
+.c5 {
   cursor: pointer;
   background: transparent;
   border: 0;
@@ -66,58 +61,51 @@ exports[`<Main /> should render the heading 1`] = `
   font-size: 3rem;
 }
 
-.c7 {
+.c6 {
   font-size: 2rem;
 }
 
-.c7 p:last-of-type {
+.c6 p:last-of-type {
   margin-top: 1rem;
 }
 
 <main
   class="c0"
 >
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="c1"
-    src="/img/logo.svg"
-  />
   <h1
-    class="c2"
+    class="c1"
   >
     Título
   </h1>
   <h2
-    class="c3"
+    class="c2"
   >
     Descrição
   </h2>
   <img
-    alt="Um desenvolvedor de frente para uma tela com código."
-    class="c4"
-    src="/img/hero-illustration.svg"
+    class="c3"
   />
   <div
-    class="c5"
+    class="c4"
   >
     <button
-      class="c6"
+      class="c5"
     >
       🇧🇷
     </button>
     <button
-      class="c6"
+      class="c5"
     >
       🇪🇸
     </button>
     <button
-      class="c6"
+      class="c5"
     >
       🇺🇸
     </button>
   </div>
   <div
-    class="c7"
+    class="c6"
   >
     <p>
       Info

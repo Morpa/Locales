@@ -27,6 +27,8 @@ export default function Home() {
       description={content.descripiont}
       info={content.info}
       url={content.url}
+      altText={content.altText}
+      hero={content.hero}
     />
   )
 }
