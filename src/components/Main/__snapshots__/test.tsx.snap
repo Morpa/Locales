@@ -35,6 +35,7 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c3 {
+  margin-top: 2rem;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -55,12 +56,12 @@ exports[`<Main /> should render the heading 1`] = `
   <h1
     class="c2"
   >
-    React Avançado
+    Título
   </h1>
   <h2
     class="c3"
   >
-    TypeScript, ReactJS, NextJS e Styled Components
+    Descrição
   </h2>
   <img
     alt="Um desenvolvedor de frente para uma tela com código."
@@ -68,4 +69,4 @@ exports[`<Main /> should render the heading 1`] = `
     src="/img/hero-illustration.svg"
   />
 </main>
-`
+`;

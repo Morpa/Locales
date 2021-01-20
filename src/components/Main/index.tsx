@@ -1,9 +1,13 @@
+import Link from 'next/link'
+
 import * as S from './styles'
 
-const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
-}) => (
+export type MainProps = {
+  title: string
+  description: string
+}
+
+const Main = ({ title, description }: MainProps) => (
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"

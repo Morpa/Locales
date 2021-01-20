@@ -23,6 +23,7 @@ export const Title = styled.h1`
 `
 
 export const Description = styled.h2`
+  margin-top: 2rem;
   font-size: 2rem;
   font-weight: 400;
 `
