@@ -45,6 +45,35 @@ exports[`<Main /> should render the heading 1`] = `
   width: min(30rem,100%);
 }
 
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.c6 {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  height: 5rem;
+  width: 5rem;
+  font-size: 3rem;
+}
+
+.c7 {
+  font-size: 2rem;
+}
+
+.c7 p:last-of-type {
+  margin-top: 1rem;
+}
+
 <main
   class="c0"
 >
@@ -68,5 +97,34 @@ exports[`<Main /> should render the heading 1`] = `
     class="c4"
     src="/img/hero-illustration.svg"
   />
+  <div
+    class="c5"
+  >
+    <button
+      class="c6"
+    >
+      🇧🇷
+    </button>
+    <button
+      class="c6"
+    >
+      🇪🇸
+    </button>
+    <button
+      class="c6"
+    >
+      🇺🇸
+    </button>
+  </div>
+  <div
+    class="c7"
+  >
+    <p>
+      Info
+    </p>
+    <p>
+      /url
+    </p>
+  </div>
 </main>
 `;

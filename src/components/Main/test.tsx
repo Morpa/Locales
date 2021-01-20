@@ -4,7 +4,9 @@ import Main from '.'
 
 const props = {
   title: 'Título',
-  description: 'Descrição'
+  description: 'Descrição',
+  info: 'Info',
+  url: '/url'
 }
 
 describe('<Main />', () => {
@@ -18,6 +20,10 @@ describe('<Main />', () => {
     expect(
       screen.getByRole('heading', { name: props.description })
     ).toBeInTheDocument()
+
+    expect(screen.getByText(props.info)).toBeInTheDocument()
+
+    expect(screen.getByText(props.url)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })

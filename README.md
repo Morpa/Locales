@@ -1,23 +1,31 @@
-<h1 align="center">Next Boilerplate</h1>
+<h1 align="center">Locales</h1>
+<h2 align="center">🇧🇷 🇪🇸 🇺🇸</h2>
 
 <p align="center">
   <img alt="Made by" src="https://img.shields.io/badge/made%20by-Morpa%20-%2356BEB8">
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/morpa/Next-Boilerplate.svg?color=56BEB8">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/morpa/Locales.svg?color=56BEB8">
 
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/morpa/Next-Boilerplate.svg?color=56BEB8">
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/morpa/Locales.svg?color=56BEB8">
 
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Morpa/Next-Boilerplate?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Morpa/Locales?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Morpa/Next-Boilerplate?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Morpa/Locales?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Morpa/Next-Boilerplate?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Morpa/Locales?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/Morpa/Next-Boilerplate?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Morpa/Locales?color=56BEB8">
 
-  <img alt="CI" src="https://github.com/Morpa/boilerplate/workflows/ci/badge.svg?color=56BEB8">
+  <img alt="CI" src="https://github.com/Morpa/Locales/workflows/ci/badge.svg?color=56BEB8">
 
 </p>
+
+## What is this?
+The application is intended to demonstrate how we can easily have the same application with multiple languages ​​without much effort.
+
+- [Portuguese Version](https://locales.vercel.app/)
+- [English Version](https://locales.vercel.app/en)
+- [Spanish Version](https://locales.vercel.app/es)
 
 ## What is inside?
 

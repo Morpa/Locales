@@ -21,5 +21,12 @@ export default function Home() {
 
   const content = handleLocale(locale!)
 
-  return <Main title={content.title} description={content.descripiont} />
+  return (
+    <Main
+      title={content.title}
+      description={content.descripiont}
+      info={content.info}
+      url={content.url}
+    />
+  )
 }

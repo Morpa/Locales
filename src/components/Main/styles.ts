@@ -32,3 +32,24 @@ export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
 `
+export const FlagsWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+`
+export const Flag = styled.button`
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  height: 5rem;
+  width: 5rem;
+  font-size: 3rem;
+`
+
+export const InfoWrapper = styled.div`
+  font-size: 2rem;
+
+  p:last-of-type {
+    margin-top: 1rem;
+  }
+`
